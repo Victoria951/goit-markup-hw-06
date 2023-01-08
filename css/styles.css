@@ -573,11 +573,13 @@ color:var(--primary-white-color);
 
 .footer-form-input{
     width: 264px;
-    height: 40px;
+    /* height: 40px; */
     background-color: var(--title-text-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     margin-right: 24px;
+    color: var(--primary-slate-color);
+    padding: 8px 16px;
    
 }
 .footer-form-btn{
@@ -630,10 +632,10 @@ color:var(--primary-white-color);
     text-decoration: none;
     column-gap:24px ;
     row-gap:48px ;
- }
+}
 
 
-a{
+.card-element{
     text-decoration: none;
 }
 .card-text-title{
@@ -644,8 +646,10 @@ a{
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-
+  
 }
+
+
 .card-text-text{
     margin-top: 0;
     margin-bottom:0;   
@@ -759,6 +763,7 @@ a{
 .modal-close-btn:hover,
 .modal-close-btn:focus{
    border-color: rgba(231, 233, 252, 1);
+   background-color: var(--accent-color);
 }
 
 .modal-close-svg-btn{
@@ -767,7 +772,7 @@ a{
   
 .modal-close-btn:hover .modal-close-svg-btn,
 .modal-close-btn:focus .modal-close-svg-btn{
-fill: var(--title-text-color); 
+fill: var(--primary-white-color); 
 }
 
 /* MODAL FORM */
@@ -812,6 +817,7 @@ fill: var(--title-text-color);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 38px;
+    background-color:#FCFCFC;
     transition: border-color 250ms var(--timer-fuction);
 }
 .modal-form-input:focus{
